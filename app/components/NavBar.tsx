@@ -14,7 +14,7 @@ const navLinks = [
 
 export default function NavBar() {
 	return (
-		<nav className="flex items-center justify-between absolute top-0 left-0 w-full pt-[34px] pl-6 pr-3 lg:px-28">
+		<nav className="flex items-center justify-between w-full pt-[34px] pl-6 pr-3 lg:px-28">
 			<div className="flex items-center">
 				<Image src={Logo} alt="Logo" />
 				<p className="pl-1 leading-tight text-xl lg:text-[37px] lg:leading-[37px] ">
